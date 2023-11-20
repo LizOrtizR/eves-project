@@ -39,7 +39,7 @@ const Gallery = () => {
     <div className="bg-white">
 
     
-    <div className='max-w-[1200px] h-[800px] w-full m-auto py-14 px-4 relative group mb-10 '>
+    <div className='max-w-[1200px] h-[600px] w-full m-auto py-14 px-4 relative group mb-10 '>
    <h1 className="text-3xl font-bold mb-8 text-center font-epical-glory">Art Gallery</h1>
 
       <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>
@@ -55,13 +55,13 @@ const Gallery = () => {
           </button>
         )}
       </div>
-      <div className='hidden group-hover:block absolute top-[50%] transform -translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+      <div className='hidden group-hover:block absolute top-[50%] transform -translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer '>
   <BsChevronCompactLeft onClick={prevSlide} size={30} />
 </div>
 <div className='hidden group-hover:block absolute top-[50%] transform -translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
   <BsChevronCompactRight onClick={nextSlide} size={30} />
 </div>
-      <div className='flex top-4 justify-center py-2 space-x-1'>
+      <div className='flex top-4 justify-center py-1 space-x-3 '>
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
