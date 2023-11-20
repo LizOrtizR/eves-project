@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ @import url('https://fonts.cdnfonts.com/css/solena');
+ @import url('https://fonts.cdnfonts.com/css/epical-glory');
+ 
+ @font-face {
+  font-family: 'Epical Glory';
+  src: url('/fonts/EpicalGlory-Regular.woff2') format('woff2'),
+       url('/fonts/EpicalGlory-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.font-epical-glory {
+  font-family: 'Epical Glory', sans-serif;
+}
+@import url('https://fonts.cdnfonts.com/css/andreas-2');
+
+              
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media ( -ms-clear) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
