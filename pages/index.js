@@ -9,7 +9,7 @@ import Quote from '../components/Quote/Quote';
 export default function Home() {
   return (
     <div>
-    <div className="w-full h-screen relative flex flex-col items-center justify-center">
+    <div className="w-screen h-[640px] relative flex flex-col items-center justify-center">
       <Image
         src={home}
         alt="Imagen de ejemplo"
@@ -24,9 +24,9 @@ export default function Home() {
        
       />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-center">
-  <p className="text-3xl" style={{
+  <p className="text-2xl" style={{
     textShadow: '4px 1.6px 3px rgba(0, 0, 0, 0.9)', // Ajusta los valores según tus preferencias
-    lineHeight: '1.6', // Ajusta el espacio entre líneas
+    lineHeight: '1.4', // Ajusta el espacio entre líneas
   }}>
     <h1 className="font-epical-glory text-6xl text-white- " style={{
     textShadow: '5px 1.6px 2px rgba(0, 0, 0, 0.9)', // Ajusta los valores según tus preferencias
@@ -38,21 +38,18 @@ export default function Home() {
   </p>
 
 
+        <div className="mt-8">
+        <button className="bg-white bg-opacity-80 text-black rounded-2xl font-bold py-2 px-4 text-xl transform transition-all hover:scale-105 hover:bg-opacity-30 hover:shadow-xl">
+  Learn More
+</button>
 
-
-
-
-        <div className="mt-4">
-          <button className="bg-green-500 text-black rounded-2xl font-bold py-2 px-4 text-xl">
-            Learn More
-          </button>
         </div>
       </div>
     
       </div>
        <Gallery />
       <About/>
-      <   Quote/>
+      <Quote/>
       <div className="bg-[#e6cfbd]">
      
     

@@ -18,6 +18,7 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+  
 
   const handleThemeChange = () => {
     setTheme((prevTheme) => !prevTheme);
@@ -42,7 +43,7 @@ const Navbar = () => {
     
    <div className='mr-auto'>
 
-   <ul  className="hidden md:flex">
+   <ul  className=" md:flex">
          
          <li className="ml-10 text-2xl  hover:border-b">
              
