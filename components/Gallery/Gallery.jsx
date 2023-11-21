@@ -39,7 +39,7 @@ const Gallery = () => {
     <div className="bg-white">
 
     
-    <div className='max-w-[1200px] h-[600px] w-full m-auto py-14 px-4 relative group mb-10 '>
+    <div className='max-w-[1200px] h-[600px] w-full m-auto pt-8 py-14 px-4  relative group mb-10 '>
    <h1 className="text-3xl font-bold mb-8 text-center font-epical-glory">Art Gallery</h1>
 
       <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500 relative'>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import instagram from "../../public/instagram.png";
 import correo from "../../public/correo.png";
 import facebook1 from "../../public/facebook1.png";
+import NavLogo from "../../public/Navlogo2.png";
 
 const Footer = () => {
   return (
@@ -10,16 +11,13 @@ const Footer = () => {
       style={{
         backgroundImage: "linear-gradient(to right, #b9debd, #61c96a, #38933f, #083b17)",
       }}
-      className="bg-gray-800 text-white py-8"
+      className="bg-gray-800 text-white py-4"
     >
       <div className="container mx-auto flex flex-col items-center">
         
-
-      <h1 className="font-epical-glory font-bold text-3xl text-white- " style={{
-    textShadow: '5px 1.6px 2px rgba(0, 0, 0, 0.9)', // Ajusta los valores según tus preferencias
-    lineHeight: '1.6', // Ajusta el espacio entre líneas
-  }}>
-   Arts By Eve</h1>
+      <div className="flex items-center justify-center">
+      <Image src={NavLogo} width={100} height={100} alt="Arts By Eve" />
+      </div>
         <div className="flex justify-center items-center">
           <div className="mr-4 mb-2">
             <a
